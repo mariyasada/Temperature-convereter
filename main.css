@@ -53,6 +53,7 @@ label{
     text-align: center;
     width: 100%;
     color:var(--label-dark);
+    text-shadow:2px 2px 5px white ;
     
     
 }
@@ -62,10 +63,11 @@ input{
     margin-top: 0.2rem;
     font-weight: 300;
     border-radius: 0.4rem;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--label-dark);
+    /* border: 3px solid var(--primary-color); */
     padding: 0.4rem;
     margin-bottom: 0.3rem ;
     font-size: large;
     outline: none;    
-    box-shadow: 1px 1px 6px var(--primary-color); 
+    box-shadow: 2px 2px 6px rgb(54, 50, 50); 
 }
