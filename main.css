@@ -64,7 +64,7 @@ label{
     
 }
 input{
-    max-width:70%;
+    max-width:250px;
     display: inline-block;
     margin-top: 0.2rem;
     font-weight: 300;
