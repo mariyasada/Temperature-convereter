@@ -23,6 +23,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 width: 100%;
 margin:0px auto;
 background-repeat: no-repeat;
+-webkit-background-size: cover;
  background-image:url(imAGE/PHYSICS.jpg) ; 
 background-size: cover;
 background-attachment: fixed;
