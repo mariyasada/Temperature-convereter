@@ -25,6 +25,7 @@ margin:0px auto;
 background-repeat: no-repeat;
 background-image:url(imAGE/PHYSICS.jpg) ;
 background-size: 100%;
+background-attachment: fixed;
 }
 
 .container
@@ -61,7 +62,7 @@ label{
     
 }
 input{
-    width:50%;
+    max-width:340px;
     display: inline-block;
     margin-top: 0.2rem;
     font-weight: 300;
@@ -74,4 +75,11 @@ input{
     outline: none;    
     /* box-shadow: 2px 2px 6px rgb(54, 50, 50);  */
     box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+@media (min-width:481px) and (max-width:1024px)
+{
+    body {
+      background-image: url(imAGE/PHYSICS.jpg);
+    }
 }
