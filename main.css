@@ -23,7 +23,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 width: 100%;
 margin:0px auto;
 background-repeat: no-repeat;
-background-image:url(imAGE/PHYSICS.jpg) ;
+/* background-image:url(imAGE/PHYSICS.jpg) ; */
 background-size: 100%;
 background-attachment: fixed;
 }
