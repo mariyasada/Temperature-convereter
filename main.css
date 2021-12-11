@@ -81,9 +81,9 @@ input{
 
 /* @media (min-width:481px) and (max-width:1024px) for tablets*/
 /* for mobile */
-/* @media(max-width:480px)
+@media(max-width:480px)
 {
     body {
       background-image: url(imAGE/PHYSICS.jpg);
     }
-} */
+}
